@@ -1,0 +1,149 @@
+<!DOCTYPE html><html lang="az">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CaspianCoin - Rəsmi Sayt</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      line-height: 1.6;
+    }
+    header {
+      background: rgba(0,0,0,0.6);
+      padding: 20px;
+      text-align: center;
+      position: relative;
+    }
+    .menu-icon {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      font-size: 24px;
+      cursor: pointer;
+    }
+    nav {
+      display: none;
+      background: rgba(0,0,0,0.8);
+      padding: 10px;
+      position: absolute;
+      right: 20px;
+      top: 60px;
+      border-radius: 10px;
+    }
+    nav a {
+      color: white;
+      display: block;
+      margin: 10px 0;
+      text-decoration: none;
+    }
+    .container {
+      max-width: 960px;
+      margin: auto;
+      padding: 20px;
+    }
+    section {
+      background: rgba(255,255,255,0.1);
+      padding: 20px;
+      border-radius: 15px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+    h2 {
+      margin-bottom: 10px;
+      color: #ffd700;
+    }
+    a.btn {
+      background: #ffd700;
+      color: #000;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 10px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 6px;
+      border: none;
+    }
+    @media (max-width: 768px) {
+      .container {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CaspianCoin</h1>
+    <p>Azərbaycanın ilk kriptovalyutası</p>
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    <nav id="menu">
+      <a href="#about">Haqqında</a>
+      <a href="#roadmap">Yol Xəritəsi</a>
+      <a href="#airdrop">Airdrop</a>
+      <a href="#wallet">Cüzdan</a>
+      <a href="#nft">NFT</a>
+      <a href="#game">Oyun</a>
+      <a href="#register">Qeydiyyat</a>
+    </nav>
+  </header>
+  <div class="container">
+    <section id="about">
+      <h2>CaspianCoin Nədir?</h2>
+      <p>CaspianCoin Azərbaycanın ilk kriptovalyutası olaraq yerli bazarda və beynəlxalq aləmdə istifadə üçün yaradılıb.</p>
+      <a class="btn" href="https://t.me/CaspianCoinBot" target="_blank">Telegram Bot</a>
+      <a class="btn" href="https://t.me/caspian_coinn" target="_blank">Telegram Qrup</a>
+    </section><section id="roadmap">
+  <h2>Yol Xəritəsi</h2>
+  <p>✅ Token yaradıldı<br>✅ Telegram bot aktivdir<br>🔜 NFT seriyası<br>🔜 Exchange inteqrasiyası<br>🔜 Mobil tətbiq</p>
+</section>
+
+<section id="airdrop">
+  <h2>Airdrop</h2>
+  <p>Aktiv istifadəçilərə pulsuz CaspianCoin əldə etmək imkanı!</p>
+  <a class="btn" href="https://t.me/CaspianCoinBot">Airdropa Qoşul</a>
+</section>
+
+<section id="wallet">
+  <h2>Cüzdan</h2>
+  <p>İstifadəçilər CaspianCoin-lərini bot vasitəsilə balanslarında saxlaya və idarə edə bilərlər.</p>
+</section>
+
+<section id="nft">
+  <h2>NFT Platforması</h2>
+  <p>Rəqəmsal kolleksiya və unikal NFT-lər CaspianCoin ilə alın və saxlayın.</p>
+</section>
+
+<section id="game">
+  <h2>Oyun Simulyasiyası</h2>
+  <p>Hamster Kombat tərzində interaktiv oyun interfeysi ilə CaspianCoin qazan!</p>
+</section>
+
+<section id="register">
+  <h2>İstifadəçi Qeydiyyatı</h2>
+  <form>
+    <input type="text" placeholder="Adınız" required />
+    <input type="email" placeholder="E-poçt" required />
+    <textarea placeholder="Əlavə qeydlər (istəyə bağlı)"></textarea>
+    <a class="btn" href="#">Qeydiyyatdan Keç</a>
+  </form>
+</section>
+
+  </div>  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('menu');
+      menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+    }
+  </script></body>
+</html>
